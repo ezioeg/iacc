@@ -26,7 +26,11 @@ My iacc (Intelligent Artificial Call Center) is a proof-of-concept project that 
 - Uvicorn: ASGI server
 
 ## Setup
-### Create and Activate Virtual Environment
+### Managing Python Virtual Environments (for macOS users)
+Note: These commands also work on most Linux distributions. This section is labeled for macOS users because, in macOS, using virtual environments is strongly recommended—and often necessary—when working with Python projects such as FastAPI backends, to prevent conflicts with the system’s Python and to manage dependencies cleanly.
+
+⚠️ Windows users are not included here because the setup commands differ significantly. If you're using Windows, consider following a platform-specific guide or using WSL (Windows Subsystem for Linux) for a more consistent Unix-like development experience.
+
 ```bash
 # Create a virtual environment (you can change 'aienv' to any name)
 python3 -m venv ~/venvs/aienv
