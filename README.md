@@ -2,13 +2,13 @@
 My iacc (Intelligent Artificial Call Center) is a proof-of-concept project that integrates several AI technologies to simulate an intelligent outbound call center. It is capable of making real-time calls, speaking with customers, understanding their responses, and replying intelligently using natural voice synthesis — all in an automated flow.
 
 ## Features
-- Outbound Call Bot Flow:
+- **Outbound Call Bot Flow**
   1. Call Handling: Uses Twilio to initiate real phone calls and manage live audio streams.
   2. Text-to-Speech (TTS): Converts predefined scripts and dynamic AI responses into natural-sounding voice using ElevenLabs.
   3. Speech-to-Text (STT): Transcribes real-time customer responses using OpenAI Whisper.
   4. Natural Language Processing (NLP): Interprets the customer's intent and generates dynamic responses using GPT-4-turbo from OpenAI.
   5. Conversational Loop: The AI continuously listens, processes, and responds, maintaining a natural back-and-forth conversation.
-- Modular Backend:
+- **Modular Backend**
   - Built with FastAPI (Python) for speed, scalability, and easy integration of AI and telecom services
 
 ## Technologies Used
@@ -27,9 +27,9 @@ My iacc (Intelligent Artificial Call Center) is a proof-of-concept project that 
 
 ## Setup
 ### Managing Python Virtual Environments (for macOS users)
-Note: These commands also work on most Linux distributions. This section is labeled for macOS users because, in macOS, using virtual environments is strongly recommended—and often necessary—when working with Python projects such as FastAPI backends, to prevent conflicts with the system’s Python and to manage dependencies cleanly.
+> 💡 **Note:** These commands also work on most Linux distributions. This section is labeled for macOS users because, in macOS, using virtual environments is strongly recommended—and often necessary—when working with Python projects such as FastAPI backends, to prevent conflicts with the system’s Python and to manage dependencies cleanly.
 
-⚠️ Windows users are not included here because the setup commands differ significantly. If you're using Windows, consider following a platform-specific guide or using WSL (Windows Subsystem for Linux) for a more consistent Unix-like development experience.
+> ⚠️ **Warning:** Windows users are not included here because the setup commands differ significantly. If you're using Windows, consider following a platform-specific guide or using WSL (Windows Subsystem for Linux) for a more consistent Unix-like development experience.
 
 ```bash
 # Create a virtual environment (you can change 'aienv' to any name)
