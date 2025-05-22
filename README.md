@@ -63,12 +63,12 @@ uvicorn main:app --reload
 Make sure the file where your FastAPI app is declared is called main.py, or modify the command accordingly.
 
 ## Future Improvements
-- First considerations (high priority)
+- **First considerations (high priority)**
   - CRM integration: Connect with tools like Make or Zapier to send data to a Google Sheets document as a CRM prototype, facilitating lead tracking and management.
   - Outbound call infrastructure: Optimize integration with Twilio and its webhooks to efficiently manage the call flow and real-time responses.
   - Call and transcription logging: Store conversations in text format to enable post-call analysis, error detection, and continuous improvement of the conversational model.
 
-- Second considerations (medium priority)
+- **Second considerations (medium priority)**
   - Advanced conversational flow management: Implement robust logic to handle conversational states (start, interaction, end) and maintain contextually coherent responses based on the user’s intent.
   - Error and interruption handling: Design strategies to allow the bot to recover if the user says something unexpected, remains silent, or deviates from the conversation.
   - Latency optimization: Reduce response times between conversation turns by improving performance in the STT → NLP → TTS pipeline, ensuring a smooth and natural call experience.
